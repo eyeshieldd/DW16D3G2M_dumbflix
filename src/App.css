@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.backgorundcont {
+    background-color:black;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +31,139 @@
 .App-link {
   color: #61dafb;
 }
+.imagecontent {
+  /* position: absolute; */
+  width: 180px;
+  height: 280px;
+  left: 600px;
+  top: 800px;
+  margin-top: 3px;
+  border-radius: 7px;
+}
+.App-font {
+  font-family:'Product Sans';
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: bold;
+}
+.App-fontxs {
+  font-family:'Product Sans';
+  color: rgb(207, 196, 196);
+  font-size: 13px;
+  font-style: normal;
+}
+.App-bold {
+  font-family:'Product Sans';
+  color: #FFFFFF;
+  font-size: 22px;
+  font-style: bold;
+}
+.center{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+.centered-img {
+ position: absolute;
+
+ width: 500px;
+  position: absolute;
+ height: 77.00px;
+ left: 150px;
+ top: 202px;
+}
+
+.kotak {
+
+ background: linear-gradient(to bottom, rgba(0,0, 0, 0), black), url('./images/logo1.png'), #1c1c1c;
+ height: 750px;
+}
+.kotak1 {
+
+ background: linear-gradient(to bottom, rgba(0,0, 0, 0), black), url('./images/logo2.png'), #1c1c1c;
+ height: 750px;
+}
+.year {
+position: absolute;
+width: 95px;
+height: 32px;
+left: 205px;
+top: 366px;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+
+
+}
+.tipe {
+position: absolute;
+width: 38px;
+height: 27px;
+left: 150px;
+top: 366px;
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1%;
+/* identical to box height, or 27px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.watch {
+  box-shadow:5px 5px 3px #282c34;
+  font-family: "Product Sans";
+ position: absolute;
+  width: 300px;
+height: 60px;
+left: 150px;
+top: 430px;
+  font-size: 1.7rem;
+  background: #e50914;
+  border: 1px solid #e50914;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.centered-des {
+ position: absolute;
+width: 537px;
+height: 54px;
+left: 150px;
+top: 300px;
+font-family:'Product Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150.2%;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+}
+
+.btn-reg{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  color: #FFFFFF;
+  transform: translate(-50%, -50%);
+  }
+.btn-login{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  }
 
 @keyframes App-logo-spin {
   from {
